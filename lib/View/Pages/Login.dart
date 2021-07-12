@@ -1,4 +1,5 @@
 import 'package:cute_login_design/View/Components/Button.dart';
+import 'package:cute_login_design/View/Components/ForgotPass.dart';
 import 'package:cute_login_design/View/Components/form.dart';
 import 'package:cute_login_design/View/Components/rive_bg.dart';
 import 'package:cute_login_design/View/const.dart';
@@ -21,19 +22,5 @@ class Login extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class BuildForgotPassButton extends StatelessWidget {
-  const BuildForgotPassButton({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Align(
-        alignment: Alignment.bottomCenter,
-        child: Padding(
-          padding: const EdgeInsets.only(bottom: 40.0),
-          child: Text("FORGOT PASSWORD?"),
-        ));
   }
 }
